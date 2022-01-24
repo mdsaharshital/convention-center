@@ -19,3 +19,12 @@ body {
 .start-custom {
   left: 80%;
 }
+.custom-btn {
+  color: white;
+  outline: 2px solid white;
+}
+.custom-btn:hover {
+  background-color: white;
+  color: #0d6efd;
+  outline: none;
+}
