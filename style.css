@@ -18,6 +18,10 @@ body {
 .special-card {
   height: 500px;
 }
+/* hot badge */
+.start-custom {
+  left: 80%;
+}
 .card-body h1 {
   color: #231d4f;
 }
