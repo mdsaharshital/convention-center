@@ -56,6 +56,7 @@
           </div>
         </div>
       </nav>
+     
       <section class="">
         <div
           id="carouselExampleCaptions"
@@ -148,8 +149,24 @@
     </header>
     <main>
       <!-- cards -->
-      <section class="container py-5">
+      <section class="container py-5 position-relative">
         <h1 class="text-center fw-bold my-5">Our Package</h1>
+        <div
+        class="toast show align-items-center  position-absolute top-0 end-0 mt-5"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body">Get <strong class="text-danger">20%</strong> off!</div>
+          <button
+            type="button"
+            class="btn-close me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
         <div class="row row-cols-1 row-cols-md-3 g-2">
           <!-- card-1 -->
           <div class="col-lg-3 col-md-6 col-sm-12">
@@ -302,7 +319,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-sm-12 my-sm-4 d-flex justify-content-center align-items-center">
-            <img src="./images/people.png" class="img-fluid" alt="">
+            <img src="./images/faq.jpg" class="img-fluid" alt="">
           </div>
         </div>
       </section>
