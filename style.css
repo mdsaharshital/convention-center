@@ -2,10 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-/*--------
- main card
- -----  */
+/*main card*/
 .card {
   transition: 0.3s all;
   border-radius: 26px;
@@ -21,40 +18,4 @@ body {
 /* hot badge */
 .start-custom {
   left: 80%;
-}
-.card-body h1 {
-  color: #231d4f;
-}
-.card p {
-  color: #848199;
-}
-.text-white-css {
-  color: white !important;
-}
-.fa-check-circle {
-  color: #5243c2;
-}
-.text-white-css i {
-  color: white;
-}
-.btn-chose-plan {
-  padding: 14px 60px;
-  background: rgba(244, 150, 210, 0.2);
-  border-radius: 24px;
-  border: none;
-  color: #3f87f5;
-}
-.btn-chose-plan:hover {
-  background: rgba(244, 150, 210, 0.5);
-}
-.btn-chose-plan-special {
-  padding: 14px 60px;
-  background: rgba(244, 150, 210, 0.2);
-  border-radius: 24px;
-  border: none;
-  color: white;
-}
-.btn-chose-plan-special:hover {
-  background: rgba(244, 150, 210, 0.5);
-  color: white;
 }
